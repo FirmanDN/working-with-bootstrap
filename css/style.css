@@ -1,0 +1,145 @@
+:root{
+   --color1: #fff;
+   --color2: #eebb12;
+   --color3: #070707;
+   --color4: #111;
+}
+
+.bg1{
+   background-color: var(--color3);
+}
+
+.bg2{
+   background-color: var(--color4);
+}
+
+header{
+   padding: 150px 0;
+   background-color: #202023;
+   background-image: url(../img/pattern.png);
+   background-size: contain;
+   background-position: center;
+}
+
+h2{
+   color: var(--color2);
+}
+
+h1, h3, h5, p, ul, li{
+   color: var(--color1);
+}
+
+.color2{
+   color: var(--color2);
+}
+
+.btn{
+   display: block;
+   max-width: 200px;
+   font-weight: 500;
+   padding: 8px 53px;
+   margin: 0 auto;
+}
+
+section{
+   font-size: 18px;
+   padding: 100px 0;
+}
+
+.about-us, .course-for, .faq, footer{
+   background-color: var(--color3);
+}
+
+.about-us__img{
+   max-width: 260px;
+   height: auto;
+}
+
+.course, .program, .buy{
+   background-color: var(--color4);
+}
+
+.course i{
+   font-size: 25px;
+   color: var(--color2);
+}
+
+.line{
+   width: 100px;
+   height: 4px;
+   background-color: var(--color2);
+   margin: 15px auto 15px;
+}
+
+.circule{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto 15px;
+   width: 70px;
+   height: 70px;
+   border: var(--color2) 3px solid;
+   border-radius: 50%;
+}
+
+.h100{
+   height: 100%;
+}
+
+
+.embed-container {
+   position: relative;
+   padding-bottom: 56.25%;
+   height: 0;
+   overflow: hidden;
+   max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+
+.accordion-button:not(.collapsed) {
+   font-weight: bold;
+   color: var(--bs-black);
+   background-color: var(--color2);
+}
+.accordion-button:not(.collapsed)::after{
+   background-image: var(--bs-accordion-btn-icon);
+}
+.program{
+   font-size: 16px;
+}
+
+.faq a{
+   color: var(--color2);
+   border-bottom: solid 1px var(--color2);
+   text-decoration: none;
+}
+
+.faq a:hover{
+   color: #eebb12a7;
+   border-bottom: solid 1px #eebb12a7;
+}
+
+footer{
+   padding: 50px 0;
+   font-size: 18px;
+}
+
+footer a{
+   color: var(--bs-white);
+}
+
+.mail__link{
+   text-decoration: none;
+   color: var(--color2);
+   border-bottom: 1px var(--color2) solid ;
+}
